@@ -18,7 +18,7 @@ body {
 
 .navbar-brand h1 { /* Restaurant name */
 	color: #557c3e;
-	font-size: 1.5em;
+	font-size: 2em;
 	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
@@ -51,6 +51,15 @@ body {
   margin-top: -30px;
 }
 /** END HEADER **/
+
+/** MAIN **/
+section{
+	background-color: #CCC;
+	border: 2px solid black;
+	padding:  0px 10px 10px;
+	margin-bottom: 15px;
+}
+/** ENS MAIN **/
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
