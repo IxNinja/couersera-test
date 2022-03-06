@@ -61,12 +61,57 @@ body {
 
 /** MAIN **/
 section{
+  position: relative;
 	background-color: #CCC;
 	border: 2px solid black;
 	padding:  0px 10px 10px;
 	margin-bottom: 15px;
 }
+p.para1 span{
+  margin: 5px 2.5px 10px;
+} 
+p.para2 span{
+  margin: 5px 2.5px 10px;
+} 
+p.para3 span{
+  margin: 5px 2.5px 10px;
+} 
 /** END MAIN **/
+
+/** LOGIN **/
+button.b1 {   
+  background-color: #4CAF50;   
+  width: 100%;  
+  color: orange;   
+  padding: 15px;   
+  margin: 10px 0px;   
+  border: none;   
+  cursor: pointer;   
+  }   
+form {   
+  border: 3px solid #f1f1f1;   
+}   
+input[type=text], input[type=password] {   
+  width: 100%;   
+  margin: 8px 0;  
+  padding: 12px 20px;   
+  display: inline-block;   
+  border: 2px solid green;   
+  box-sizing: border-box;   
+}  
+button.b1:hover {   
+  opacity: 0.7;   
+}   
+.cancelbtn {   
+  width: auto;   
+  padding: 10px 18px;  
+  margin: 10px 5px;  
+}   
+.contain {   
+  padding: 25px;   
+  background-color: lightblue;  
+}   
+/** END LOGIN **/
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
