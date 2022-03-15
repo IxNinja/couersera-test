@@ -1,0 +1,24 @@
+<html>
+<body>
+
+<h2> Confirm Box</h2>
+
+
+<button onclick="myFunction()">Login</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("Press a button!")) {
+    txt = "welcom in our website!";
+  } else {
+    txt = "you are not login!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+</body>
+</html>
